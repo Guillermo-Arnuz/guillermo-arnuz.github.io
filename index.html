@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página ünica de CV - Keith Miller." />
+    <meta name="twitter:card" value="Curriculum para Proyecto final - Keith Miller">
+   
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Keith Miller" />
+    <meta property="og:type" content="CV personal" />
+    <meta property="og:image" content="Imagen/17.jpg" />
+    <meta property="og:description" content="CV de Keith Miller" />
+
+    <!-- Datos -->
+    <title>Keith Miller</title>
+    <link rel="shortcut icon" href="Keith.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Cinzel">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+
+    <!-- Agradecimientos y créditos:
+    Texto de relleno: https://es.lipsum.com/feed/html
+    Información del usuario: https://randomuser.me/
+    Tutoriales HTML: https://www.w3schools.com/
+    Metadata: https://www.arsys.es/blog/codigos-ejemplo-meta-tags-sociales -->
+
+</head>
+
+<body>
+    <!-- JavaScript -->
+    <script src="js/index.js"></script>
+
+    <!--Header con menu-->
+
+    <div class="topnav" id="myTopnav">
+        <a href="#intro" class="active">Inicio</a>
+        <a href="#info_per">Información personal</a>
+        <a href="#form_ac">Formación</a>
+        <a href="#xp">Experiencia</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="cross"> &#x2795</i>
+        </a>
+      </div>
+
+    <!-- CV - HTML -->
+    <header>
+            <img src="Imagen/17.jpg" alt="Keith Miller" id="pic">
+            <h1>Keith Miller</h1>
+            <h4>El tipo que escribe...</h4>
+    </header>
+
+    <!-- Div general -->
+<div id="div_general">
+
+    <section class="sección">
+
+	<a id="intro"><h3> Presentación </h3></a>
+	<p> Bienvenido a mi página personal. Mi nombre es Keith Miller y soy un escritor profesional. Aún no he publicado nada a mi nombre porque la mayoría de las cosas que hago son para otros. Algunos suelen llamar a la gente como yo "Ghost writers (escritores fantasmas)"... <p id="demo"></p>
+	<button onclick="typeWriter()" class=boton >...cuentame más...</button> 
+
+        <a id="info_per"><h3> Información Personal</h3></a>
+
+        <p id="Lista ordenada"></p>
+
+        <ul>
+            <li>Email: keith.miller@example.com</li>
+            <li>Dirección: 3595 Sunset St</li>
+            <li>Teléfono: (579) 626-0936</li>
+            <li>Redes sociales: ...</li>
+            <li>Más redes sociales: ...</li> 
+        </ul>
+    </section>
+
+    <section class="sección">
+        <a id="form_ac"><h3>Formación</h3></a>
+        <ul>
+        <li>Mucha práctica</li>
+        <li>Mucho estudio</li>
+        <li>Más datos</li>
+        <li>etc...</li>
+        <li>etc...</li>
+        </ul>     
+    </section>
+
+    <section class="sección">
+       <a id="xp"><h3>Experiencia laboral</h3></a>
+       <ul>
+        <li>Técnicamente no puedo decir nada...</li>
+	    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Mauris ornare eros non tincidunt sodales.</li>
+        <li>Aliquam non arcu eget orci feugiat faucibus non nec ligula.</li>
+        <li>Nam vel erat a leo scelerisque aliquam.</li>
+        <li>Maecenas ac arcu ullamcorper, congue dolor id, tempor sapien.</li>
+       </ul>
+    </section>
+
+</div>
+  
+
+<!-- Footer-->
+    <footer id="footer">
+        <p>Créditos y agradecimientos en los archivos correspondientes</p> 
+
+    </footer>
+
+</body>
+</html>
